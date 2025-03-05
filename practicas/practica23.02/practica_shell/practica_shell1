@@ -1,0 +1,16 @@
+#!/bin/bash
+# practica1.sh - Navegación entre directorios
+
+echo "Directorio actual:"
+pwd
+
+cd /tmp
+echo "Contenido de /tmp:"
+ls
+
+cd ~
+mkdir -p practica_shell
+cd practica_shell
+echo "Directorio actual tras cd practica_shell:"
+pwd
+chmod +x practica1.sh

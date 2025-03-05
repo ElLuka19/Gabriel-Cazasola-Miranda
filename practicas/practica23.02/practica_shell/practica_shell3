@@ -1,0 +1,9 @@
+#!/bin/bash
+# practica3.sh - Creación de múltiples archivos y directorios
+
+mkdir -p documentos imagenes scripts
+touch documentos/nota{1..5}.txt
+
+mv documentos/nota3.txt documentos/nota4.txt backup/
+rm -r imagenes
+chmod +x practica3.sh
