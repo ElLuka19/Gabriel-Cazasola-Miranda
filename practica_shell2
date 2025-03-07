@@ -1,0 +1,14 @@
+#!/bin/bash
+# practica2.sh - Creación y manipulación de archivos
+
+touch archivo1.txt
+echo "Hola, este es un archivo de prueba" > archivo1.txt
+cp archivo1.txt archivo_copia.txt
+
+mkdir -p backup
+mv archivo_copia.txt backup/
+rm archivo1.txt
+
+echo "Contenido de backup:"
+ls backup
+chmod +x practica2.sh

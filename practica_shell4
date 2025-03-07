@@ -1,0 +1,13 @@
+
+#!/bin/bash
+# practica4.sh - Cambiando permisos de archivos con chmod
+
+touch script.sh
+echo -e "#!/bin/bash\necho \"Este es un script de prueba\"" > script.sh
+
+ls -l script.sh
+chmod 500 script.sh
+
+# Intentar modificar (simulación, usar nano/vim manualmente)
+chmod 700 script.sh
+chmod +x practica4.sh
