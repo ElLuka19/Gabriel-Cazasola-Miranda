@@ -1,0 +1,57 @@
+# Prácticas de Comandos en Shell - Ubuntu
+
+## **1. Explorando el sistema de archivos**  
+📌 **Objetivo:** Practicar la navegación entre directorios.  
+
+🔹 **Instrucciones:**  
+1. Crea un archivo de script llamado `practica1.sh`.  
+2. Dentro del script, escribe los comandos para realizar las siguientes acciones:  
+   - Mostrar el directorio actual (`pwd`).  
+   - Acceder a la carpeta `/tmp` y listar su contenido (`ls`).  
+   - Volver al directorio personal (`cd ~`).  
+   - Crear una carpeta llamada `practica_shell` en el directorio personal (`mkdir`).  
+   - Acceder a `practica_shell` (`cd practica_shell`).  
+   - Mostrar el directorio actual (`pwd`).  
+3. Guarda los cambios, asigna permisos de ejecución con:  
+   ```bash
+    chmod +x practica1.sh
+
+## **2. Creación y manipulación de archivos**  
+📺 **Objetivo:** Aprender a crear, copiar, mover y eliminar archivos.  
+
+🔹 **Instrucciones:**  
+1. Crea un archivo de script llamado `practica2.sh`.  
+2. Dentro del script, escribe los comandos para realizar las siguientes acciones:  
+   - Crear un archivo vacío `archivo1.txt` (`touch`).  
+   - Escribir `"Hola, este es un archivo de prueba"` en `archivo1.txt` (`echo`).  
+   - Copiar `archivo1.txt` a `archivo_copia.txt` (`cp`).  
+   - Crear una carpeta `backup` dentro de `practica_shell` (`mkdir`).  
+   - Mover `archivo_copia.txt` a `backup` (`mv`).  
+   - Eliminar `archivo1.txt` (`rm`).  
+   - Listar los archivos de `backup` (`ls backup`).  
+3. Guarda los cambios, asigna permisos de ejecución y ejecútalo:  
+   ```bash
+   chmod +x practica2.sh
+   ./practica2.sh
+
+## **3. Creación de múltiples archivos y directorios**  
+📺 **Objetivo:** Automatizar la creación de archivos y directorios con un solo comando.  
+
+🔹 **Instrucciones:**  
+1. Crea un archivo de script llamado `practica3.sh`.  
+2. Dentro del script, escribe los comandos para realizar las siguientes acciones:  
+   - Crear tres directorios: `documentos`, `imagenes`, `scripts` (`mkdir`).  
+   - Crear cinco archivos dentro de `documentos`: `nota1.txt`, `nota2.txt`, `nota3.txt`, `nota4.txt`, `nota5.txt` (`touch`).  
+   - Mover `nota3.txt` y `nota4.txt` a la carpeta `backup` (`mv`).  
+   - Eliminar la carpeta `imagenes` (`rm -r`).  
+3. Guarda los cambios, asigna permisos de ejecución y ejecútalo:  
+   ```bash
+   chmod +x practica3.sh
+   ./practica3.sh
+
+## **4. Cambiando permisos de archivos con chmod**  
+📺 **Objetivo:** Modificar permisos de archivos para restringir o habilitar accesos.  
+
+🔹 **Instrucciones:**  
+1. Crea un archivo de script llamado `practica4.sh`.  
+2. Dentro del script, escribe los comandos para realizar las
