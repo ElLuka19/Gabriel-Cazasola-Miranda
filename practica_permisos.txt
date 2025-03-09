@@ -1,0 +1,28 @@
+1.- - Solo el dueño puede leer y escribir.  
+- Otros usuarios solo pueden leerlo.  
+usamos el chmod 644 archivo.log
+2.- Solo el dueño puede leer, escribir y ejecutar.  
+- Nadie más puede acceder.  
+usamos el chmod 700 archivo.sh
+3.- Todos pueden leer y escribir en el
+usamos el chmod 666 archivo.txt
+4.-  Solo el dueño puede leer y escribir.  
+- Nadie más debe tener acceso.
+usamos chmod 600 archivo.db
+5- Todos pueden leerlo, pero solo el dueño puede modificarlo.  
+usamos el chmod 644 instrucciones.txt
+6.- Solo el dueño puede leerlo.  
+- Nadie más debe tener acceso.  
+usamos el chmod 400 secreto.key
+7.- Solo el dueño puede ejecutar el archivo.  
+- Nadie más puede leer ni modificarlo.
+usamos el chmod 100 ejecutar_programa
+8.- Todos pueden leer y modificar el archivo. 
+usamos el chmod 666 compartido.doc
+9.- Solo el dueño puede ejecutar el archivo.  
+- Todos los demás pueden ejecutarlo pero no modificarlo. 
+usamos el chmod 755 solo_ejecucion
+10.- - Solo el dueño puede leer y escribir
+-El grupo del dueño puede leerlo
+-Otros usuarios no pueden acceder
+usamos el chmod 640 reporte_admin.pdf
