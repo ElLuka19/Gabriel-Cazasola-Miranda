@@ -25,5 +25,5 @@ usamos el chmod 755 solo_ejecucion
 10.- - Solo el dueño puede leer y escribir
 -El grupo del dueño puede leerlo
 -Otros usuarios no pueden acceder
-usamos el chmod 640 reporte_admin.pdf
+Usamos el chmod 640 reporte_admin.pdf
 
