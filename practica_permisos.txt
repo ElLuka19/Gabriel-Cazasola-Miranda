@@ -26,3 +26,4 @@ usamos el chmod 755 solo_ejecucion
 -El grupo del dueño puede leerlo
 -Otros usuarios no pueden acceder
 usamos el chmod 640 reporte_admin.pdf
+
